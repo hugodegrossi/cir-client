@@ -1,0 +1,5 @@
+<h2>NOS SOIGNANTS</h2>
+
+<div class="grid">
+    <app-profile *ngFor="let profile of profiles$ | async" [profile]="profile"></app-profile>
+</div>

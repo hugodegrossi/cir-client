@@ -1,0 +1,5 @@
+<h2>NOS SOINS</h2>
+
+<div class="grid">
+    <app-procedure *ngFor="let procedure of procedures$ | async" [procedure]="procedure"></app-procedure>
+</div>
